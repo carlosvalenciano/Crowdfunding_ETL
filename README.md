@@ -5,8 +5,9 @@
 * [Instructions](#instructions)
 * [Create the Category and Subcategory DataFrames](#create-the-category-and-subcategory-dataframes)
 * [Create the Campaign DataFrame](#create-the-campaign-dataframe)
-* [Create the Contacts DataFrame](create-the-contacts=dataframe)
-* 
+* [Create the Contacts DataFrame](#create-the-contacts=dataframe)
+* [Create the Crowdfunding Database](#create-the-crowdfunding-database)
+* [Hints](#hints)
 
 
 ## **Background**
@@ -101,7 +102,7 @@ The instructions for this mini-project are divided into the following subsection
 
 ![Contact DataFrame Final](Resources/images/contact_DataFrame_final.png)
 
-## **Create the Crowdfunding Database**
+## **Create the Crowdfunding Database**  
 
 1. Inspect the four CSV files, and then sketch an ERD of the tables by using [QuickDBD](https://www.quickdatabasediagrams.com/) to an external site.
 2. Use the information from the ERD to create a table schema for each CSV file.   
@@ -123,29 +124,3 @@ The instructions for this mini-project are divided into the following subsection
 * To convert the "goal" and "pledged" columns to the <code>float</code> data type, use the <code>astype()<>/code method.
 * To convert the "launch_date" and "end_date" UTC times to the <code>datetime</code> format, see the <code>Transform_Grocery_Orders_Solved.ipynb</code> activity solution.
 * For more information about how to add the "category_id" and "subcategory_id" unique identification numbers to the campaign DataFrame, see the [pandas.DataFrame.merge](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html). in the Pandas documentation.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
