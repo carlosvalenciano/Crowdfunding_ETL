@@ -5,7 +5,7 @@
 * [Instructions](#instructions)
 * [Create the Category and Subcategory DataFrames](#create-the-category-and-subcategory-dataframes)
 * [Create the Campaign DataFrame](#create-the-campaign-dataframe)
-* [Create the Contacts DataFrame](#create-the-contacts=dataframe)
+* [Create the Contacts DataFrame](#create-the-contacts-dataframe)
 * [Create the Crowdfunding Database](#create-the-crowdfunding-database)
 * [Hints](#hints)
 
